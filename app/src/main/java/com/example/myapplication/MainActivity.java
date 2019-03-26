@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.a5://InerntServic后台服务
                 Intent intent3=new Intent(this,Ht.class);
-                stopService(intent3);
+                startService(intent3);
                 Log.d("MainActivity","007");
                 break;
 
